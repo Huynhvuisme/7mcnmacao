@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin/*
+Sitemap: https://7mcn88.com/sitemap.xml

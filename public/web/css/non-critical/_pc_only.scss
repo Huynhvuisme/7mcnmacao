@@ -1,0 +1,27 @@
+.back-top {
+  width: 42px;
+  height: 42px;
+  bottom: 90px;
+  right: 22px;
+  z-index: 9999;
+}
+.back-top img {
+  max-width: 50px;
+}
+/*Fb Comments Width Fix*/
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.top-0 {
+    top: 0
+}
+.bottom-0 {
+    bottom: 0
+}
+.left-0 {
+    left: 0
+}
+.right-0 {
+    right: 0
+}

@@ -1,0 +1,67 @@
+td.match_status {
+    color: red;
+    white-space: nowrap;
+}
+
+td.match_goal, td.match_corner .span_match_corner {
+    color: #428bca;
+    font-weight: 700;
+    padding: 2px 0 !important
+}
+
+td.match_handicap {
+    padding: 2px 0 !important
+}
+
+.span_half_corner {
+    color: #535353;
+    font-size: 12px;
+    font-weight: 400;
+    float: right
+}
+
+.td_league {
+    min-width: 20px;
+    max-width: 150px
+}
+
+.deep_blue_head th {
+    background-color: #a6bede
+}
+
+.yellow_card {
+    background-color: #f5c833;
+    padding: 2px 4px;
+    color: #7f3b03;
+    border-radius: 3px;
+    font-size: 10px
+}
+
+.red_card {
+    background-color: #d62d2d;
+    padding: 2px 4px;
+    color: #e5e5e5;
+    border-radius: 3px;
+    font-size: 10px
+}
+
+.leaguePos {
+    position: relative;
+    top: -5px;
+    font-size: 11px;
+    -webkit-transform: scale(.9);
+    -o-transform: scale(1);
+    display: inline-block
+}
+
+.match_half_corner_div, .match_half_goal_div {
+    color: coral
+}
+
+.hide {
+    display: none;
+}
+
+.th_status {
+    min-width: 33px;
+}

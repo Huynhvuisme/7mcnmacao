@@ -1,0 +1,65 @@
+.data-tip {
+    tr {
+        &:first-child {
+            background: #2467AD;
+            color: white;
+        }
+        td {
+            border: 1px solid white;
+            padding: 0.5rem;
+            &:nth-child(4),&:last-child {
+                text-align: center;
+            }
+        }
+        &:nth-child(odd):not(:first-child){
+            td:not(:nth-child(4),:first-child) {
+                background-color: #EDF6FF;
+            }
+        }
+        &:nth-child(even):not(:first-child){
+            td:not(:nth-child(4),:first-child) {
+                background-color: #EDF6FF;
+            }
+        }
+        &:not(:first-child) {
+            td {
+                &:first-child {
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                &:nth-child(4) {
+                    background:#05BE40;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.data-tip-mb {
+    font-size: 13px;
+    tr {
+        &:first-child {
+            background: #2467AD;
+            color: white;
+            td {
+                text-align: center;
+            }
+        }
+        td {
+            border: 0.5px solid white;
+            padding: 0 0.125rem;
+            &:first-child,&:nth-child(2),&:nth-child(5),&:nth-child(6),&:last-child {
+                text-align: center;
+            }
+        }
+        &:not(:first-child) {
+            td {
+                &:nth-child(5) {
+                    background:#05BE40;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

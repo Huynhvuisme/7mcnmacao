@@ -1,0 +1,53 @@
+//colors
+$white-color:#fff;
+$hover-color:#0e5b49;
+$dark-color:#2C2C2C;
+$grey-color:#C5C5C5;
+$title-color:#0A764A;
+$green-color:#05BE40;
+$green-color1: #89c932;
+$green-color2: #05BE40;
+$green-color3: #167635;
+$green-color4: #15452F;
+$green-color5: #0A764A;
+$green-color6: #3fce72;
+$yellow-color1: #AE8327;
+$blue-color:#2F80ED;
+$blue-color1:#4460A0;
+$blue-color2:#0B2F57;
+$blue-color3:#003090;
+$blue-color4:#0C56A4;
+$blue-color5:#0A3768;
+$blue-color6:#1FAEFF;
+$blue-color7:#2467AD;
+$red-color: #c51d23;
+$red-color1:#FF5F5F;
+$red-color2: #eb5757;
+$red-color3: #cc0000;
+$red-color4:#D72D2D;
+$orange:orange;
+$orange1:#DB4B33;
+$black:#000000;
+$black1:#222222;
+$black3:#191919;
+$black4:#333333;
+$tag-bg-color:#DADADA;
+$gray1: #F6F6F6;
+$gray2: #404040;
+$gray3: #808080;
+$gray4: #D5DCE0;
+$gray7:#E4E4E4;
+$white: #fff;
+$breadcrumb-divider: quote(">");
+
+$lg: 'only screen and (min-width: 1200px)';
+$xl: 'only screen and (min-width: 992px)';
+$md:'only screen and (min-width: 768px)';
+$large-mobile:'only screen and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+$mini-mobile: 'only screen and (max-width: 320px)';
+
+$color-list:(
+    "green": (4: $green-color4, 5: $green-color5, 6: $green-color6),
+    "yellow": (1: $yellow-color1)
+);

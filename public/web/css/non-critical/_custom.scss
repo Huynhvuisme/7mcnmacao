@@ -1,0 +1,280 @@
+.list-tournament{border-radius:10px}
+.list-tournament>li{padding:5px 0}
+.list-tournament>li>a{color:$black;-webkit-transition:all ease .4s;-moz-transition:all ease .4s;-ms-transition:all ease .4s;-o-transition:all ease .4s;transition:all ease .4s}
+.list-tournament>li>a:hover{color:#214790}
+.list-tournament li img{width:25px}
+.hot-tournament .asb-content p {border: 1px solid #1f1fdc;}
+
+.cat_des img {
+    max-width: 100%;
+}
+
+.child-border-right{
+    >*:not(:last-child){
+        border-right: 1px solid white;
+    }
+}
+
+.child-mr-2{
+    >*:not(:last-child){
+        margin-right: 0.5rem;
+    }
+}
+
+.nhacai-medal {
+    display: inline-block;
+    width: 23px;
+    height: 27px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    z-index: 1;
+}
+.nhacai-medal::before{
+    content: "\e9d2";
+    position: absolute;
+    top: -7px;
+    left: -4px;
+    right: 0;
+    color: #FFC107;
+    font-size: 30px;
+    z-index: -1;
+}
+
+.nhacai-uy-tin-medal {
+    background: url("/web/images/subtract_lg.png");
+    width: 37px;
+    height: 43px;
+    background-size: 38px;
+    left: 0;
+    z-index: 1;
+}
+
+.gamebai-medal {
+    background: url("/web/images/subtract_lg.png");
+    display: inline-block;
+    width: 49px;
+    height: 56px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.gamebai-rating {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    color: #fff;
+    background: #DA0B0B;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.bg-img-green {
+    color: #ffffff;
+}
+
+.bg-img-green::before{
+    color: #05BE40;
+  }
+
+.about-footer a {
+    color: $green-color6
+}
+
+.about-footer a:hover {
+    color: $green-color5
+}
+
+.collapsible {
+    cursor: pointer;
+}
+
+.collapsible:after {
+    content: '\2630';
+    float: right;
+}
+
+.collapsible.active:after {
+    content: "\1F5D9";
+}
+
+@media only screen and (max-width: 767px) {
+    .table-list-match-container {
+        overflow: auto;
+    }
+}
+
+.box-calencar .head-title::before {
+    background: rgba(239, 65, 35, 1);
+    top: 6px
+}
+
+.box-calencar .head-title {
+    background: linear-gradient(90deg, #15452F 7.78%, #0A764A 101.53%);
+    color: #fff;
+    padding-top: 10px;
+    margin-top: -10px;
+    border-radius: 4px 0 0;
+    padding-bottom: 10px;
+}
+
+.box-calencar td.match-club {
+    width: 42%
+}
+
+.box-calencar .content-football {
+    max-height: 600px;
+    overflow-x: hidden;
+}
+
+.box-calencar .fb_box_date {
+    padding: 1px
+}
+
+.box-calencar .fb_box_date a {
+    color: #000
+}
+.content-football a {
+    color: rgba(2, 15, 38, 1)
+}
+.content-football {
+    background: #f7f7f7;
+    padding: 4px;
+}
+
+.content-football .table {
+    width: 100%;
+    max-width: 100%;
+    background: #f7f7f7;
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse
+}
+
+.content-football .table-bordered {
+    border: 1px solid #ebebeb
+}
+.content-football .table tr {
+    border: 4px solid #f7f7f7;
+    background: #f7f7f7
+}
+
+.content-football .table tr.match {
+    background: #fff;
+    border-radius: 4px;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff
+}
+
+.content-football .title_league .league_name {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #020f26;
+    padding: 5px 10px;
+}
+
+.content-football .table .tr {
+    border-bottom: 2px solid #f7f7f7;
+    background: #f7f7f7
+}
+
+.content-football .table .tr.match {
+    background: #fff;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+.content-football .table .tr.match .match-club {
+    width: 35%;
+}
+.content-football .table .tr.match .match-score {
+    width: 8%;
+}
+.fb-sub-menu li a {
+    padding: 3px;
+    display: inline-block;
+    border: 1px solid #15452F;
+    border-radius: 3px;
+}
+
+.fb-sub-menu li.sub-menu-active {
+    background: #d7f1d8;
+    border-radius: 4px
+}
+
+.fb-sub-menu li a .date-word {
+    color: #99adcd;
+    white-space: nowrap
+}
+
+.fb-sub-menu li.sub-menu-active a span {
+    color: #15452F
+}
+.fb-sub-menu li.btn-live a {
+    background-color: #0a0a0a;
+    color: #FFFFFF;
+}
+.fb-sub-menu li.btn-live a .date-word {
+    color: #FFFFFF;
+}
+.fb-sub-menu li.btn-live.sub-menu-active a {
+    color: #ef4123;
+}
+.fb-sub-menu li.btn-live.sub-menu-active a .date-word {
+    color: #ef4123;
+}
+.font-10 {
+    font-size: 10px!important;
+}
+.box_latest_news {
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0 0;
+}
+.content-block-identify {
+    padding: 1px;
+}
+.table {
+    margin-bottom: 0;
+}
+.table .td {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 1.42857;
+    padding: 8px 5px;
+}
+#box-calendar-fb-widget ::-webkit-scrollbar {
+    width: 4px;
+}
+
+#box-calendar-fb-widget ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#box-calendar-fb-widget ::-webkit-scrollbar-thumb {
+    background: #0A764A;
+    border-radius: 10px;
+}
+
+#box-calendar-fb-widget ::-webkit-scrollbar-thumb:hover {
+    background: #529f45;
+}
+
+.justify-content-rigth {
+    justify-content: right;
+}
+
+.h-2000 {
+    height: 2000px;
+}
+.post-content img {
+    width: 100%;
+    height: auto;
+}

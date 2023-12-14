@@ -1,0 +1,485 @@
+.result {
+    background-color: #fff;
+    overflow: hidden;
+}
+.result table {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.result table thead tr th {
+    font-size: 16px;
+    background-color: #d0021b;
+    border: 1px solid #d0021b;
+    text-align: left;
+    padding: 8px 0 7px 2.79%;
+    text-transform: uppercase;
+}
+.result table thead tr th h2 {
+    margin-bottom: 0;
+    color: #fff;
+}
+.result table thead tr th h2 a {
+    color: #fff;
+}
+.result table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+.result table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+.result table tbody tr:not(:first-child) td:first-child {
+    font-size: 14px;
+    font-weight: normal;
+}
+.result table tbody .numberTail {
+    background: #f6df3d;
+    border-radius: 50%;
+    padding: 3px;
+}
+.result table tbody .text-number .fa-pulse {
+    font-size: 15px;
+}
+.result table tfoot td {
+    background-color: #e0e0e0;
+    line-height: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.result table tfoot td .check-number {
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+@media #{max-width: 767px}
+{
+    .result table tfoot td > div {
+        min-width: 100%;
+        justify-content: center;
+    }
+    .result table tfoot td > div.check-radio {
+        padding: 0;
+    }
+    .result table tfoot td > div.check-number {
+        padding-bottom: 10px;
+    }
+}
+.result table.table-flex {
+    width: 100%;
+}
+div.check-radio label {
+    padding: 0 0.5rem;
+    white-space: nowrap;
+    line-height: 1;
+    margin-bottom: 0;
+}
+div.check-radio label input {
+    display: none;
+}
+div.check-radio label span:last-child {
+    font-size: 16px;
+    vertical-align: middle;
+}
+div.check-radio label span.checkbox {
+    background: #fff;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+div.check-radio label span.checkbox .fa-check {
+    display: none;
+    color: #d0021b;
+}
+div.check-radio label input[type="radio"]:checked + span.checkbox .fa-check {
+    display: block;
+}
+div.check-radio label input[type="checkbox"]:checked + span.checkbox .fa-check {
+    display: block;
+}
+div.check-radio label span.active .fa-check {
+    display: block;
+}
+div.check-number ul {
+    display: flex;
+}
+div.check-number ul li.active, div.check-number ul li:hover {
+    color: #f38a08;
+    border: 2px solid #f38a08;
+}
+div.check-number ul li {
+    list-style-type: none;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    color: #797979;
+    border: 2px solid #797979;
+    border-radius: 24px;
+    line-height: 1.4rem;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+div.table-flex-border {
+    border: 1px solid #dadada;
+    border-radius: 4px;
+}
+.result-single table tbody tr td:first-child {
+    width: 15%;
+    text-align: center;
+    align-self: center;
+}
+.result-single table tbody tr:first-child td {
+    padding: 0.5rem 0;
+}
+.result-single table tbody tr:first-child td a {
+    font-size: 14px;
+    color: #3e3f42;
+}
+.result-single table tbody tr:first-child td:last-child span {
+    font-size: 18px;
+    color: #d0021b;
+    margin: 0 5% 0 5%;
+    display: inline-block;
+}
+.result-single table tbody tr:not(:first-child) td:first-child {
+    color: #4a4a4a;
+}
+.result-single table tbody tr:not(:first-child) td:last-child {
+    color: #3e3f42;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+.result-single table tbody tr:nth-child(2) td:last-child {
+    font-size: 30px;
+    color: #d0021b;
+    padding: 0;
+    line-height: 3.3rem;
+}
+.result-single table tbody tr:nth-child(4) td:last-child span {
+    width: 48%;
+    display: inline-block;
+}
+.result-single table tbody tr:nth-child(5) td:first-child, .result-single table tbody tr:nth-child(7) td:first-child {
+    vertical-align: middle;
+}
+.result-single table tbody tr:nth-child(5) td:last-child, .result-single table tbody tr:nth-child(7) td:last-child {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.result-single table tbody tr:nth-child(5) td:last-child > span, .result-single table tbody tr:nth-child(7) td:last-child > span {
+    height: 100%;
+    vertical-align: middle;
+    line-height: 3.4rem;
+}
+.result-single table tbody tr:nth-child(5) td:last-child span, .result-single table tbody tr:nth-child(7) td:last-child span, .result-single table tbody tr:nth-child(8) td:last-child span {
+    width: 32%;
+    display: inline-block;
+}
+.result-single table tbody tr:nth-child(6) td:last-child span, .result-single table tbody tr:nth-child(9) td:last-child span {
+    width: 22%;
+    display: inline-block;
+}
+.result-single table.table-flex tbody tr {
+    border-bottom: 1px solid #dadada;
+}
+.result-single table.table-flex tbody tr:not(:first-child) {
+    display: flex;
+}
+.result-single table.table-flex tbody tr:not(:first-child) td {
+    vertical-align: middle;
+    line-height: 3.4rem;
+}
+.result-single table.table-flex tbody tr:not(:first-child) td:not(:first-child) {
+    flex-grow: 1;
+    height: 100%;
+    border-left: 1px solid #dadada;
+}
+.result-single table.table-flex tbody tr:nth-child(5) td:last-child:after, .result-single table.table-flex tbody tr:nth-child(7) td:last-child:after {
+    content: " ";
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 1px;
+    top: 49%;
+    position: absolute;
+    display: flex;
+}
+.result-multi table tbody tr td {
+    line-height: 2.4rem;
+    align-self: center;
+    padding: 0;
+    vertical-align: middle;
+}
+.result-multi table tbody tr td:first-child {
+    width: 10%;
+    vertical-align: middle;
+}
+.result-multi table tbody tr:first-child td a {
+    font-size: 14px;
+    color: #3e3f42;
+}
+.result-multi table tbody tr:not(:first-child) td:not(:first-child) {
+    padding: 0;
+    vertical-align: middle;
+}
+.result-multi table tbody tr:not(:first-child) td:not(:first-child) span {
+    font-size: 20px;
+    width: 100%;
+    height: 41px;
+    line-height: 2.7rem;
+    display: block;
+}
+.result-multi table tbody tr:nth-child(2) td:not(:first-child) span, .result-multi table tbody tr:last-child td:not(:first-child) span {
+    color: #d0021b;
+}
+.result-multi table tbody tr:last-child td:not(:first-child) span {
+    font-size: 24px;
+}
+.result-multi table.table-flex tbody tr {
+    border-bottom: 1px solid #dadada;
+    display: flex;
+}
+.result-multi table.table-flex tbody tr td:not(:first-child) {
+    flex-grow: 1;
+    height: 100%;
+    width: 30%;
+    border-left: 1px solid #dadada;
+}
+.result-multi table.table-flex tbody tr:not(:first-child) td:not(:first-child) span:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+}
+.result-province table tbody tr td {
+    height: 53px;
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 70px;
+}
+.result-province table tbody tr td:first-child {
+    min-width: 15%;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    align-self: center;
+}
+.result-province table tbody tr:first-child td:last-child, .result-province table tbody tr:last-child td:last-child {
+    font-size: 30px;
+    color: #d0021b;
+    padding: 0;
+    line-height: 3.3rem;
+}
+.result-province table tbody tr:nth-child(3) td:last-child span {
+    width: 32%;
+    display: inline-block;
+}
+.result-province table tbody tr:nth-child(5) td:last-child {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.result-province table tbody tr:nth-child(5) td:last-child span {
+    height: 54px;
+    width: 22%;
+    display: inline-block;
+}
+.result-province table tbody tr:nth-child(5) td:last-child:after {
+    content: " ";
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 1px;
+    top: 49%;
+    position: absolute;
+    display: flex;
+}
+.result-province table tbody tr:nth-child(6) td:last-child span {
+    width: 49%;
+    display: inline-block;
+}
+.result-province table.table-flex tbody tr {
+    border-bottom: 1px solid #dadada;
+    display: flex;
+}
+.result-province table.table-flex tbody tr td {
+    vertical-align: middle;
+    line-height: 3.4rem;
+}
+.result-province table.table-flex tbody tr td:not(:first-child) {
+    flex-grow: 1;
+    height: 100%;
+    border-left: 1px solid #dadada;
+}
+.result-province table.table-flex tbody tr:nth-child(5) td:last-child:after {
+    content: " ";
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 1px;
+    top: 49%;
+    position: absolute;
+    display: flex;
+}
+/**/
+.loto {
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 11px;
+}
+.loto table {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.loto table thead tr {
+    padding-left: 0;
+}
+.loto table thead tr th {
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #33496d;
+    border: 1px solid #4a4a4a;
+    color: #fff;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+.loto table tbody tr td {
+    height: 41px;
+    font-size: 20px;
+    padding: 0;
+    line-height: 2.5rem;
+}
+.loto table tbody tr td span:not(:last-child):after {
+    content: ',';
+}
+.loto table tbody tr td:nth-child(1) {
+    color: #d0021b;
+}
+.loto table tfoot tr td.info-foot {
+    background: #e0e0e0;
+    padding: 0;
+}
+.loto table tfoot tr td.info-foot ul li {
+    width: 25%;
+    padding-left: 0;
+}
+.loto table tfoot tr td.info-foot ul li:before {
+    margin-right: 4px;
+}
+.loto-single table thead tr th:nth-child(1), .loto-single table thead tr th:nth-child(3) {
+    text-align: center;
+    width: 15%;
+}
+.loto-single table thead tr th:nth-child(2), .loto-single table thead tr th:nth-child(4) {
+    text-align: left;
+    padding-left: 0.75rem;
+}
+.loto-single table tbody tr td:nth-child(3) {
+    color: #d0021b;
+}
+.loto-single table tbody tr td:nth-child(2), .loto-single table tbody tr td:nth-child(4) {
+    text-align: left;
+    padding-left: 0.75rem;
+}
+.loto-multi table thead tr {
+    display: flex;
+}
+.loto-multi table thead tr th {
+    font-size: 14px;
+}
+.loto-multi table thead tr th a {
+    color: #fff;
+}
+.loto-multi table thead tr th:not(:first-child) {
+    -webkit-flex: 1;
+    /* Safari 6.1+ */
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+    text-align: left;
+}
+.loto-multi table thead tr th:first-child {
+    width: 10%;
+}
+.loto-multi table tbody tr {
+    display: flex;
+}
+.loto-multi table tbody tr td:first-child {
+    width: 10%;
+}
+.loto-multi table tbody tr td:not(:first-child) {
+    width: auto;
+    text-align: left;
+    padding-left: 0.75rem;
+}
+.loto-multi table tbody tr td:not(:first-child) {
+    -webkit-flex: 1;
+    /* Safari 6.1+ */
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+}
+.breadcrumb-table .breadcrumb-table-title {
+    font-size: 18px;
+    background: #d0021b;
+    line-height: 2.25;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 17px;
+    margin: 0;
+}
+.breadcrumb-table a {
+    color: white;
+}
+.table-c td {
+    border-right: 1px solid #dee2e6;
+}
+.table-c td:first-child {
+    border-left: 1px solid #dee2e6;
+}
+.table-c tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+.table-c tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0);
+}
+.table-c tbody tr:last-child {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.spin-label-selected {
+    text-decoration: underline;
+    color: #8dc441;
+}
+.spin-label:not(.spin-label-selected):hover {
+    text-decoration: underline;
+    color: #8dc441;
+    cursor: pointer;
+}
+.result table tbody .loadNumber {
+    width: 100% !important; }
+.result table tbody .loadNumber strong {
+    font-weight: bold;
+    background-color: #4A4A4A;
+    border-radius: 50%;
+    padding: 0 3px 0 3px;
+    margin: 0 1px 0 1px;
+    color: #fff; }
+.result table tbody .loadNumber strong:nth-child(odd) {
+    background-color: #D0021B;
+    color: #fff; }
+.spin-title {
+    font-size: 30px;
+    margin: 1.5rem 0;
+}
+.spin-description {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.spin-content {
+    text-align: justify;
+    line-height: 24px;
+}

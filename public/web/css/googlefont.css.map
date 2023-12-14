@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;AAyEhB,gBAAgB;AAChB,UAQG;EAPC,WAAW,EAAE,WAAW;EACxB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,IAAI;EAClB,YAAY,EAAE,IAAI;EAClB,GAAG,EAAE,kIAAkI;EACvI,aAAa,EAAE,iGAAiG",
+"sources": ["googlefont.scss"],
+"names": [],
+"file": "googlefont.css"
+}

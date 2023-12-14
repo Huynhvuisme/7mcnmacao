@@ -1,0 +1,43 @@
+.trending-topic{
+  a:not(:last-child):after{
+    content: '|';
+    margin-left: 4px;/*Thanhhh reduce from 5px to 4px because list too long, revert in future*/
+    margin-right: 4px;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 1;
+    min-width: 15em;
+}
+
+// Medium devices (tablets, 768px and up)
+@media #{$md} {
+  .px-md-15{padding-left:15px;padding-right:15px;}
+  .w-md-300{width: 300px;}
+  .pr-md-15px{padding-right:15px!important;}
+  .font-md-18{font-size:18px;}
+  .w-md-25{width: 25%;}
+  .main-content {
+    width: 784px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media #{$xl} {
+  .item-nha-cai{
+    > *:not(:last-child){
+      border-right: 1px solid #dee2e6;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media #{$lg} {
+
+}
